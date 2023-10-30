@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI e UX</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bellota+Text&family=Mirza&family=Montserrat:wght@500&family=Poppins:wght@300&family=Roboto&family=Tilt+Prism&display=swap');
+        </style>
+        
+</head>
+<body>
+    
+    <div class="bg">
+        <nav class="d-flex align-items-center fixed-top">
+            <div class="navbar  mx-4">
+                <button class="btn btn-nav" onclick="scrollFront()">UI, UX e Front</button>
+                <button class="btn btn-nav" onclick="scrollDesign()">Design</button>
+                <button class="btn btn-nav" onclick="scrollCores()">Cores e Tipografia</button>
+                <button class="btn btn-nav" onclick="scrollResponsividade()">Responsividade</button>
+                <button class="btn btn-nav" onclick="scrollUsabilidade()">Usabilidade</button>
+                <button class="btn btn-nav" onclick="scrollAcessibilidade()">Acessibilidade</button>
+                <button class="btn btn-nav" onclick="scrollInteratividade()">Interatividade</button>
+                <button class="btn btn-nav" onclick="scrollFeedback()">Feedback</button>   
+            </div>
+             
+        </nav>
+        <div class="container">
+            <article class="d-flex align-items-center">
+                <div>
+                    <h3>UI, UX e Front-End</h3>
+                    <h5>UI</h5>
+                    <p>UI é a abreviação de "User Interface" e serve para criar o visual e as sensações transmitidas pelo site, dando vida assim para o mesmo. Exemplos de UI:
+                        <ul>
+                            <li>Mudança de Fonte;</li>
+                            <li>Escolha da Paleta de Cores;</li>
+                            <li>Ajustar a Responsividade.</li>
+                        </ul>
+                    <h5>UX</h5>
+                    <p>Já o UX é a abreviação de "User Experience", a área que vai além do design e adapta a usabilidade e simplicidade para o usuário, transmitindo assim uma sensação de entendimento.</p>
+                    </p>
+                    <h5>Front-End</h5>
+                    <p>Já no Front-End, é trabalhado a funcionalidade do aplicativo. Lá, eles traduzem os trabalhos e feitos do UI e UX para o site em si, moldando e adaptando-o de modo a buscar uma melhoria.</p>
+                </div>
+                <img src="https://mangu.com.br/wp-content/uploads/2019/09/ui-ux-1024x445.png" alt="">
+                
+            </article>
+            <article>
+                <h3>Princípios do Design</h3>
+                <p>Quando falamos sobre a "face" de um site, como usuário, pensamos primeiramente em sua aparência. Para nós, programadores, o design é um dos principais fatores que contribuem para o site e dele, surge alguns princípios:
+                    <ul>
+                        <li>Simplicidade: uma interface deve ser simples e intuitiva, facilitando a compreensão e o uso por parte do usuário.</li>
+                        <li>Clareza: é importante transmitir as informações de forma clara e legível, utilizando uma linguagem simples e direta.</li>
+                        <li>Coerência: a interface deve ter uma aparência e comportamento coerentes em todo o sistema, facilitando a compreensão e a navegação.</li>
+                        <li>Acessibilidade: a interface deve ser acessível a todos os usuários, independentemente de suas habilidades e necessidades.</li>
+                        <li>Eficiência: a interface deve permitir que os usuários realizem suas tarefas de forma rápida e eficiente, evitando ações desnecessárias.</li>
+                        <li>Feedback: a interface deve fornecer feedback visual e/ou auditivo para informar os usuários sobre o resultado de suas ações.</li>
+                        <li>Flexibilidade: a interface deve ser flexível o suficiente para se adaptar a diferentes dispositivos e tamanhos de tela.</li>
+                        <li>Testes de Usabilidade: é importante realizar testes de usabilidade com usuários reais para identificar possíveis problemas e áreas de melhoria na interface.</li>
+                    </ul>
+                </p>
+            </article>
+            <article>
+                <h3>Cores e Tipografia</h3>
+                <p>No ramo da programação Web, a Tipografia (estudo, criação e aplicação dos caracteres, estilos, formatos e arranjos visuais das palavras) e as cores, acabam por ser também essenciais pois, a Tipografia cuida da aparência dos textos e palavras e as cores dão vida para nossa página.</p>
+                <div class="input-group text-center mb-2">
+                    <label class="input-group-text">Apertando esse botão, é possível ver uma MÁ aplicação da Tipografia e das Cores: </label>
+                    <button type="button" class="btn btn-primary" id="tipoCores" onclick="mudarTudo()">Clique</button>
+                </div>
+                
+            </article>
+            <article>
+                <h3>Resposividade</h3>
+                <div class="d-flex align-items-center">
+                    <p>Na programação web, a responsividade de uma aplicação é a habilidade da mesma em se "adaptar" para diferentes situações. Exemplo: a aplicação em um smartphone rodará da mesma forma e com o mesmo layout do que no computador. Normalmente, a resposividade acaba por ser um dos pilares da aplicação, visto que é necessário atender um maior público.</p>
+                    <img src="https://www.cache2net3.com//Repositorio/251/Publicacoes/23126/0332fa88-5.png" alt="">
+                </div>
+            </article>
+    
+            <article>
+                <h3>Usabilidade</h3>
+                <p>A usabilidade, em síntese, significa aquilo que promove o uso mais fácil das coisas seja ferramentas ou produtos. É a partir dela que você saberá se os usuários conseguem localizar as funções e entendê-las de forma rápida. Um exemplo disso é o botão que está na nav (topo da tela) que pode te legar a qualquer tópico.</p>
+            </article>
+    
+            <article>
+                <h3>Acessibilidade</h3>
+                <p>Acessibilidade trata-se de garantir que todas as pessoas, independentemente de suas habilidades ou limitações, possam acessar e utilizar as informações e recursos disponíveis na web. Em resumo, a acessibilidade trata de garantir a usabilidade prática, perfeita e adaptável para todos os usuários.</p>
+            </article>
+            <article>
+                <h3>Interatividade</h3>
+                <p>A ideia de interatividade é que as pessoas tenham contato com os produtos digitais de forma simples, intuitiva e objetiva.</p>
+            </article>
+            <article>
+                <h3>Feedback dos Usuários</h3>
+                <p>O feedback dos usuários se trata de qualquer informação que os seus clientes forneçam em relação a como a sua empresa ou os seus produtos ou serviços os ajudaram de alguma forma. Geralmente consiste no nível de satisfação deles e o que os agrada ou desagrada.</p>
+            </article>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
